@@ -1,14 +1,18 @@
 {
-  "name": "purescript-foreign-callbacks",
-  "version": "1.0.0",
-  "moduleType": [
-    "node"
-  ],
-  "license":"MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "output"
-  ]
+    "name": "purescript-foreign-callbacks",
+    "version": "1.0.0",
+    "moduleType": [
+        "node"
+    ],
+    "license":"MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "output"
+    ],
+    "repository": {
+        "type":"git",
+        "url":"git@github.com:fluffynukeit/purescript-foreign-callbacks.git"
+    }
 }
