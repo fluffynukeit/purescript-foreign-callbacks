@@ -4,17 +4,17 @@ where
 
 import Control.Monad.Eff
 
-foreign import data Callback0 :: * -> *
-foreign import data Callback1 :: * -> * -> *
-foreign import data Callback2 :: * -> * -> * -> *
-foreign import data Callback3 :: * -> * -> * -> * -> *
-foreign import data Callback4 :: * -> * -> * -> * -> * -> *
-foreign import data Callback5 :: * -> * -> * -> * -> * -> * -> *
-foreign import data Callback6 :: * -> * -> * -> * -> * -> * -> * -> *
-foreign import data Callback7 :: * -> * -> * -> * -> * -> * -> * -> * -> *
-foreign import data Callback8 :: * -> * -> * -> * -> * -> * -> * -> * -> * -> *
-foreign import data Callback9 :: * -> * -> * -> * -> * -> * -> * -> * -> * -> * -> *
-foreign import data Callback10:: * -> * -> * -> * -> * -> * -> * -> * -> * -> * -> * -> *
+foreign import data Callback0 :: Type -> Type
+foreign import data Callback1 :: Type -> Type -> Type
+foreign import data Callback2 :: Type -> Type -> Type -> Type
+foreign import data Callback3 :: Type -> Type -> Type -> Type -> Type
+foreign import data Callback4 :: Type -> Type -> Type -> Type -> Type -> Type
+foreign import data Callback5 :: Type -> Type -> Type -> Type -> Type -> Type -> Type
+foreign import data Callback6 :: Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type
+foreign import data Callback7 :: Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type
+foreign import data Callback8 :: Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type
+foreign import data Callback9 :: Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type
+foreign import data Callback10:: Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type -> Type
 
 foreign import callback0 :: forall z r. Eff z r -> Callback0 r
 
